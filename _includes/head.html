@@ -3,8 +3,37 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- Icons -->
+<!-- Favicons -->
 <link rel="icon" href="/assets/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" href="/assets/images/favicon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/assets/images/favicon-180x180.png" />
 <meta name="msapplication-TileImage" content="/assets/images/favicon-270x270.png" />
+
+<!-- Alpine.js -->
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<!-- Fontawesome Icons -->
+<script src="https://kit.fontawesome.com/55267cd36b.js" crossorigin="anonymous"></script>
+
+<!-- Sass CSS -->
+<link rel="stylesheet" href="/assets/css/global.css" />
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'brand': {
+            DEFAULT: '#d85c0e',
+            lighter: '#da661d',
+            lightest: '#e97b36',
+            darker: '#59290b',
+            darkest: '#45210a'
+          }
+        }
+      }
+    }
+  }
+</script>

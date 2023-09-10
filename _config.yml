@@ -28,6 +28,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 domain: grissomswim.github.io
 url: "https://grissomswim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+navlinks:
+  - title: Coaches
+    href: coaches
+  - title: Roster
+    href: roster
+  - title: Meets & Results
+    href: meets
+  - title: Time Standards
+    href: time-standards
+  - title: Board
+    href: board
+  - title: Forms
+    href: forms
+  - title: Contact Us
+    href: contact
+
 # Build settings
 theme: minima
 plugins:
