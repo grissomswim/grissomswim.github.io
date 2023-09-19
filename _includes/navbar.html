@@ -1,10 +1,15 @@
-<header class="absolute inset-x-0 top-0 z-50" x-data="{ menuOpen: false }">
+<header class="absolute inset-x-0 top-0 z-50 bg-sky-900" x-data="{ menuOpen: false }">
 
-  <nav class="flex items-center justify-between p-6 lg:px-8 bg-gradient-to-b from-sky-900/80 to-transparent" aria-label="Global">
+  <nav class="flex items-center justify-between px-6 py-4 lg:px-8" aria-label="Global">
+    <img
+      src="{{ '/assets/images/freestyle.jpg' | relative_url }}"
+      alt=""
+      class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20">
+
     <div class="flex lg:flex-1">
-      <a href="#" class="-m-1.5 p-1.5">
+      <a href="/" class="-m-1.5 p-1.5">
         <span class="sr-only">{{ page.title }}</span>
-        {% include logo-small.html class = 'h-8 w-auto' %}
+        {% include logo-small.html class = 'h-12 w-auto' %}
       </a>
     </div>
     <div class="flex lg:hidden">
@@ -13,23 +18,17 @@
         class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
         x-on:click="menuOpen = true">
         <span class="sr-only">Open main menu</span>
-        <svg
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          aria-hidden="true">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
+        <i class="fa-solid fa-bars text-xl"></i>
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       {% for link in site.navlinks %}
-        <a href="{{link.href}}" class="text-sm font-semibold leading-6 text-white">{{ link.title }}</a>
+        <a
+          href="{{link.href}}"
+          class="text-md font-semibold leading-6
+          {% if page.title == link.title %}text-brand-lightest{% else %}text-white{% endif %}">
+          {{ link.title }}
+        </a>
       {% endfor %}
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
@@ -45,6 +44,12 @@
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-50" x-on:click="menuOpen = false"></div>
     <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sky-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+      <img
+        src="{{ '/assets/images/two-divers.jpg' | relative_url }}"
+        alt=""
+        class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20">
+
+
       <div class="flex items-center justify-between">
         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">{{ page.title }}</span>
@@ -52,28 +57,17 @@
         </a>
         <button
           type="button"
-          class="-m-2.5 rounded-md p-2.5 text-gray-400"
+          class="-m-2.5 rounded-md p-2.5 text-white"
           x-on:click="menuOpen = false">
           <span class="sr-only">Close menu</span>
-          <svg
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            aria-hidden="true">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18L18 6M6 6l12 12" />
-          </svg>
+          <i class="fa-solid fa-xmark text-xl"></i>
         </button>
       </div>
       <div class="mt-6 flow-root">
-        <div class="-my-6 divide-y divide-gray-500/25">
+        <div class="-my-6 divide-y divide-sky-500/25">
           <div class="space-y-2 py-6">
             {% for link in site.navlinks %}
-              <a href="{{link.href}}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">{{ link.title }}</a>
+              <a href="{{link.href}}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-sky-900">{{ link.title }}</a>
             {% endfor %}
           </div>
         </div>
