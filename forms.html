@@ -1,8 +1,70 @@
 ---
 layout: page
 title: Forms
+forms:
+  - name: Welcome to the 2019 Grissom Swim and Dive
+    url: /assets/forms/welcome.pdf
+  - name: Grissom Registration Checklist 2019
+    url: /assets/forms/Registration-checklist-2019.pdf
+  - name: Grissom Registration Form 2019
+    url: /assets/forms/RegistrationForm-2019.pdf
+  - name: AHSAA Physical Form 2018
+    url: /assets/forms/AHSAA-Physical-form-2018.pdf
+    note: (good for 2019)
+  - name: AHSAA Concussion Form 2019
+    url: /assets/forms/AHSAA-Concussion-2019.pdf
+  - name: AHSAA Release Form 2019
+    url: /assets/forms/AHSAA-Release-2019.pdf
+  - name: NFHS Sportsmanship Instructions 2019
+    url: /assets/forms/GHS_Athletics_-_NFHS_Sportsmanship_Instructions.pdf
+  - name: Grissom Athletics Drug and Alcohol Policy 2019
+    url: /assets/forms/Grissom-Athletics-Drug-and-Alcohol-Policy-2018.pdf
+  - name: Grissom Multimedia Release 2019
+    url: /assets/forms/Grissom-Multimedia-release-2018.pdf
+  - name: Grissom Permission to Leave School 2019
+    url: /assets/forms/Grissom-Permission-to-Leave-School-2018.pdf
+  - name: Grissom Player Conference Form 2019
+    url: /assets/forms/Grissom-Player-Conference-Form-2018.pdf
+  - name: Grissom Travel Permission With Adult-Student 2019
+    url: /assets/forms/Grissom-Travel-permission-with-adult-student-2018.pdf
+  - name: HCS Athletics Permission Form 2019
+    url: /assets/forms/HCS-Athletics-Permission-Form-2018.pdf
+  - name: HCS Out-of-County/Overnight Student Trips Medical Release Form 2019
+    url: /assets/forms/HCS-Out-of-CountyOvernight-Student-Trips-Medical-Release-Form-2018.pdf
 ---
 
 <div class="bg-white py-32">
-  <h1 class="text-black">TODO</h1>
+  <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
+    <div class="mx-auto max-w-2xl">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Registration Forms 2023</h2>
+      <p class="mt-4 text-lg leading-8 text-gray-600">Please return completed forms to Coach Brown by August 9th.</p>
+    </div>
+  </div>
+
+  <div class="mx-auto max-w-2xl mt-10 px-6 lg:px-8">
+    <ul role="list" class="divide-y divide-gray-100">
+
+      {% for form in page.forms %}
+      <li class="relative flex justify-between gap-x-6 py-5">
+        <div class="flex items-center min-w-0 gap-x-4">
+          <i class="fa-solid fa-file-pdf fa-2x w-12 shrink-0 text-gray-400"></i>
+          <div class="min-w-0 flex-auto">
+            <p class="text-md font-semibold leading-6 text-gray-900">
+              <a href="{{ form.url | relative_url }}">
+                <span class="absolute inset-x-0 -top-px bottom-0"></span>
+                {{ form.name }}
+              </a>
+            </p>
+            {% if form.note %}
+            <p class="mt-1 flex text-sm leading-5 text-gray-500">
+              {{ form.note }}
+            </p>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+
+    </ul>
+  </div>
 </div>
