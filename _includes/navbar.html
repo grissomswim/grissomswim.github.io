@@ -1,9 +1,7 @@
-<header class="absolute inset-x-0 top-0 z-50 bg-sky-900" x-data="{ menuOpen: false }">
+<header class="absolute inset-x-0 top-0 z-50 bg-sky-900" x-data="{ menuOpen: true }">
 
   <nav class="flex items-center justify-between px-6 py-4 lg:px-8" aria-label="Global">
-    <img
-      src="{{ '/assets/images/freestyle.jpg' | relative_url }}"
-      alt=""
+    <img src="{{ '/assets/images/freestyle.jpg' | relative_url }}" alt=""
       class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20">
 
     <div class="flex lg:flex-1">
@@ -13,9 +11,7 @@
       </a>
     </div>
     <div class="flex lg:hidden">
-      <button
-        type="button"
-        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
         x-on:click="menuOpen = true">
         <span class="sr-only">Open main menu</span>
         <i class="fa-solid fa-bars text-xl"></i>
@@ -23,30 +19,27 @@
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       {% for link in site.navlinks %}
-        <a
-          href="{{link.href}}"
-          class="text-md font-semibold leading-6
+      <a href="{{link.href}}" class="text-md font-semibold leading-6
           {% if page.title == link.title %}text-brand-lightest{% else %}text-white{% endif %}">
-          {{ link.title }}
-        </a>
+        {{ link.title }}
+      </a>
       {% endfor %}
     </div>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <span class="sr-only">Facebook</span>
+      <a href="https://www.facebook.com/groups/GrissomSwimandDive/" class="text-sky-500 hover:text-sky-600">
+        <i class="fa-brands fa-facebook-square text-white text-2xl"></i>
+      </a>
+    </div>
   </nav>
 
   <!-- Mobile menu, show/hide based on menu open state. -->
-  <div
-    class="lg:hidden"
-    role="dialog"
-    aria-modal="true"
-    x-cloak
-    x-show="menuOpen">
+  <div class="lg:hidden" role="dialog" aria-modal="true" x-cloak x-show="menuOpen">
     <!-- Background backdrop, show/hide based on slide-over state. -->
     <div class="fixed inset-0 z-50" x-on:click="menuOpen = false"></div>
-    <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sky-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
-      <img
-        src="{{ '/assets/images/two-divers.jpg' | relative_url }}"
-        alt=""
+    <div
+      class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-sky-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
+      <img src="{{ '/assets/images/two-divers.jpg' | relative_url }}" alt=""
         class="absolute inset-0 -z-10 h-full w-full object-cover opacity-20">
 
 
@@ -55,10 +48,7 @@
           <span class="sr-only">{{ page.title }}</span>
           {% include logo-small.html class = 'h-8 w-auto' %}
         </a>
-        <button
-          type="button"
-          class="-m-2.5 rounded-md p-2.5 text-white"
-          x-on:click="menuOpen = false">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-white" x-on:click="menuOpen = false">
           <span class="sr-only">Close menu</span>
           <i class="fa-solid fa-xmark text-xl"></i>
         </button>
@@ -67,8 +57,16 @@
         <div class="-my-6 divide-y divide-sky-500/25">
           <div class="space-y-2 py-6">
             {% for link in site.navlinks %}
-              <a href="{{link.href}}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-sky-900">{{ link.title }}</a>
+            <a href="{{link.href}}"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-sky-900">{{
+              link.title }}</a>
             {% endfor %}
+          </div>
+          <div class="py-6">
+            <span class="sr-only">Facebook</span>
+            <a href="https://www.facebook.com/groups/GrissomSwimandDive/" class="text-sky-500 hover:text-sky-600">
+              <i class="fa-brands fa-facebook-square text-white text-2xl"></i>
+            </a>
           </div>
         </div>
       </div>
