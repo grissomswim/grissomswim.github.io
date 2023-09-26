@@ -19,8 +19,13 @@
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
       {% for link in site.navlinks %}
-      <a href="{{link.href}}" class="text-md font-semibold leading-6
-          {% if page.title == link.title %}text-brand-lightest{% else %}text-white{% endif %}">
+      <a href="{{link.href}}" class="text-md font-semibold leading-6 transition
+          {% if page.title == link.title %}
+            text-brand-lightest
+          {% else %}
+            text-white hover:[text-shadow:_0_0_5px_#dd3300]
+          {% endif %}
+        ">
         {{ link.title }}
       </a>
       {% endfor %}
