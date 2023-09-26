@@ -96,7 +96,7 @@ meets:
       {% for result in meet.team_results %}
       <div class="relative overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:px-6 sm:pt-6">
         <dt>
-          <div class="absolute rounded-md bg-brand p-3">
+          <div class="absolute rounded-md bg-sky-700 p-3">
             <i class="fa-solid fa-trophy fa-xl text-white"></i>
           </div>
           <p class="ml-16 truncate text-sm font-medium text-gray-500">{{ result.title }}</p>
@@ -113,14 +113,14 @@ meets:
     {% for relay in meet.relays %}
       <li class="flex items-center justify-between gap-x-6 py-5">
         <div class="flex min-w-0 gap-x-4 items-center">
-          <i class="fa-solid fa-award fa-2x text-gray-400 flex-none"></i>
+          <i class="fa-solid fa-award fa-2x text-sky-700 flex-none"></i>
           <div class="min-w-0 flex-auto">
             <p class="text-sm font-semibold leading-6 text-gray-900">{{ relay.team | join: ", " }}</p>
             <p class="mt-1 truncate text-xs leading-5 text-gray-500">{{ relay.event }}</p>
           </div>
         </div>
         <div class="shrink-0 flex flex-col items-end">
-          <p class="text-lg leading-6 text-brand flex flex-col text-right">
+          <p class="text-lg leading-6 text-sky-700 flex flex-col text-right">
             <span class="font-medium">{{ relay.placement }}</span>
             <span class="font-light text-xs font-medium text-gray-500">place</span>
           </p>
@@ -134,14 +134,14 @@ meets:
       {% for individual in meet.individuals %}
       <li class="overflow-hidden rounded-xl border border-gray-200">
         <div class="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
-          <i class="fa-solid fa-award fa-2x text-gray-400"></i>
+          <i class="fa-solid fa-award fa-2x text-sky-700"></i>
           <div class="text-lg font-medium leading-6 text-gray-900">{{ individual.name }}</div>
         </div>
         <dl class="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
           {% for event in individual.events %}
           <div class="flex justify-between gap-x-4 py-3">
             <dt class="text-gray-500">{{ event[0] }}</dt>
-            <dd class="text-gray-700">{{ event[1] }}</dd>
+            <dd class="text-sky-700">{{ event[1] }}</dd>
           </div>
           {% endfor %}
         </dl>
