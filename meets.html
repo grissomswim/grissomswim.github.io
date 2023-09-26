@@ -1,91 +1,12 @@
 ---
 layout: page
 title: Meets & Results
-
-meets:
-- title: "2020 State Championship"
-  notes: "6A-7A Division"
-  team_results:
-    - title: Girls Overall
-      result: 12th place
-    - title: Boys Overall
-      result: 10th place
-
-  relays:
-    - event: "Girls 200 yard Medley Relay"
-      placement: "11th"
-      team: ["Wical", "Blasingame", "Roberts", "Reeves"]
-
-    - event: "Girls 200 yard Free Relay"
-      placement: "11th"
-      team: ["Smith", "Kalange", "Zajac", "Wical"]
-
-    - event: "Girls 400 yard Freestyle Relay"
-      placement: "8th"
-      team: ["Blasingame", "Kalange", "Reeves", "Roberts"]
-
-    - event: "Boys 200 Medley Relay"
-      placement: "8th"
-      team: ["Hill", "Barnett", "Stinson", "Harlow"]
-
-    - event: "Boys 200 yard Freestyle Relay"
-      placement: "3rd"
-      team: ["Harlow", "Hill", "Wilson", "Stinson"]
-
-    - event: "Boys 400 Freestyle Relay"
-      placement: "8th"
-      team: ["Barnett", "Hill", "Wilson", "Stinson"]
-
-  individuals:
-  - name: "Claire Blasingame"
-    events:
-      "100 Fly": "7th"
-      "100 Breaststroke": "10th"
-
-  - name: "Owen Harlow"
-    events:
-      "50 Freestyle": "1st"
-      "100 Freestyle": "1st"
-
-  - name: "Aaron Hill"
-    events:
-      "100 Backstroke": "7th"
-
-  - name: "Kate Reeves"
-    events:
-      "200 Freestyle": "13th"
-      "100 Backstroke": "7th"
-
-  - name: "Sofia Roberts"
-    events:
-      "200 IM": "7th"
-      "100 Breastroke": "2nd"
-
-  - name: "Lily Franklin"
-    events:
-      "1 meter diving": "14th"
-
-  - name: "Ashlyn Johnson"
-    events:
-      "1 meter diving": "18th"
-
-  - name: "Keira Young"
-    events:
-      "1 meter diving": "16th"
-
-  - name: "Garrett George"
-    events:
-      "1 meter diving": "2nd"
-
-  - name: "Pete Varmette"
-    events:
-      "1 meter diving": "14th"
 ---
 
 <div class="bg-white py-32">
   <div class="mx-auto flex flex-col items-center px-6 lg:px-8">
 
-    {% for meet in page.meets %}
+    {% for meet in site.data.meets %}
     <div class="text-center">
       <h2 class="text-3xl font-bold tracking-tight text-brand sm:text-4xl">{{ meet.title }}</h2>
       <p class="mt-4 font-bold text-lg text-gray-600">{{ meet.notes }}</p>
@@ -94,9 +15,16 @@ meets:
     <h3 class="font-bold tracking-tight text-brand mt-20 mb-4">Overall</h3>
     <dl class="w-full max-w-4xl grid grid-cols-1 gap-5 sm:grid-cols-2">
       {% for result in meet.team_results %}
-      <div class="relative overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:px-6 sm:pt-6">
+      <div class="relative overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:px-6 sm:pt-6
+      before:absolute before:inset-0 before:-translate-x-full
+      before:animate-[shimmer_2s]
+      before:border-t before:border-sky-300/10
+      before:bg-gradient-to-r before:from-transparent before:via-sky-300/20 before:to-transparent
+
+      ">
         <dt>
-          <div class="absolute rounded-md bg-sky-700 p-3">
+          <div class="absolute rounded-md bg-sky-700 p-3 overflow-hidden
+          ">
             <i class="fa-solid fa-trophy fa-xl text-white"></i>
           </div>
           <p class="ml-16 truncate text-sm font-medium text-gray-500">{{ result.title }}</p>

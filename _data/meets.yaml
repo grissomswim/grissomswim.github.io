@@ -1,0 +1,77 @@
+- title: "2020 State Championship"
+  notes: "6A-7A Division"
+  team_results:
+    - title: Girls Overall
+      result: 12th place
+    - title: Boys Overall
+      result: 10th place
+
+  relays:
+    - event: "Girls 200 yard Medley Relay"
+      placement: "11th"
+      team: ["Wical", "Blasingame", "Roberts", "Reeves"]
+
+    - event: "Girls 200 yard Free Relay"
+      placement: "11th"
+      team: ["Smith", "Kalange", "Zajac", "Wical"]
+
+    - event: "Girls 400 yard Freestyle Relay"
+      placement: "8th"
+      team: ["Blasingame", "Kalange", "Reeves", "Roberts"]
+
+    - event: "Boys 200 Medley Relay"
+      placement: "8th"
+      team: ["Hill", "Barnett", "Stinson", "Harlow"]
+
+    - event: "Boys 200 yard Freestyle Relay"
+      placement: "3rd"
+      team: ["Harlow", "Hill", "Wilson", "Stinson"]
+
+    - event: "Boys 400 Freestyle Relay"
+      placement: "8th"
+      team: ["Barnett", "Hill", "Wilson", "Stinson"]
+
+  individuals:
+  - name: "Claire Blasingame"
+    events:
+      "100 Fly": "7th"
+      "100 Breaststroke": "10th"
+
+  - name: "Owen Harlow"
+    events:
+      "50 Freestyle": "1st"
+      "100 Freestyle": "1st"
+
+  - name: "Aaron Hill"
+    events:
+      "100 Backstroke": "7th"
+
+  - name: "Kate Reeves"
+    events:
+      "200 Freestyle": "13th"
+      "100 Backstroke": "7th"
+
+  - name: "Sofia Roberts"
+    events:
+      "200 IM": "7th"
+      "100 Breastroke": "2nd"
+
+  - name: "Lily Franklin"
+    events:
+      "1 meter diving": "14th"
+
+  - name: "Ashlyn Johnson"
+    events:
+      "1 meter diving": "18th"
+
+  - name: "Keira Young"
+    events:
+      "1 meter diving": "16th"
+
+  - name: "Garrett George"
+    events:
+      "1 meter diving": "2nd"
+
+  - name: "Pete Varmette"
+    events:
+      "1 meter diving": "14th"
