@@ -1,152 +1,6 @@
 ---
 layout: page
 title: Time Standards
-# YAML exatracted from official tables via ChatGPT :)
-state:
-  - event: "200 Medley Relay"
-    boys1a: "2:04.19"
-    boys6a: "1:52.59"
-    girls1a: "2:13.09"
-    girls6a: "2:04.89"
-    
-  - event: "200 Freestyle"
-    boys1a: "2:05.39"
-    boys6a: "1:55.19"
-    girls1a: "2:15.09"
-    girls6a: "2:05.49"
-
-  - event: "200 IM"
-    boys1a: "2:22.79"
-    boys6a: "2:11.49"
-    girls1a: "2:35.09"
-    girls6a: "2:22.89"
-
-  - event: "50 Freestyle"
-    boys1a: "24.39"
-    boys6a: "23.39"
-    girls1a: "27.39"
-    girls6a: "25.89"
-
-  - event: "1M Diving"
-    boys1a: "Top 3"
-    boys6a: "Top 6"
-    girls1a: "Top 3"
-    girls6a: "Top 6"
-
-  - event: "100 Butterfly"
-    boys1a: "1:02.49"
-    boys6a: "58.09"
-    girls1a: "1:08.39"
-    girls6a: "1:03.79"
-
-  - event: "100 Freestyle"
-    boys1a: "55.99"
-    boys6a: "51.79"
-    girls1a: "59.99"
-    girls6a: "56.99"
-
-  - event: "500 Freestyle"
-    boys1a: "5:40.09"
-    boys6a: "5:17.89"
-    girls1a: "6:03.79"
-    girls6a: "5:40.09"
-
-  - event: "200 Freestyle Relay"
-    boys1a: "1:48.69"
-    boys6a: "1:41.19"
-    girls1a: "1:58.59"
-    girls6a: "1:50.19"
-
-  - event: "100 Backstroke"
-    boys1a: "1:04.19"
-    boys6a: "58.89"
-    girls1a: "1:09.39"
-    girls6a: "1:04.39"
-
-  - event: "100 Breaststroke"
-    boys1a: "1:12.59"
-    boys6a: "1:05.39"
-    girls1a: "1:18.19"
-    girls6a: "1:12.99"
-
-  - event: "400 Freestyle Relay"
-    boys1a: "4:11.99"
-    boys6a: "3:46.79"
-    girls1a: "4:23.99"
-    girls6a: "4:12.99"
-
-sectionals:
-  - event: "200 Medley Relay"
-    boys1a:
-    boys6a:
-    girls1a:
-    girls6a:
-    
-  - event: "200 Freestyle"
-    boys1a: "2:24.99"
-    boys6a: "2:13.99"
-    girls1a: "2:36.99"
-    girls6a: "2:25.99"
-    
-  - event: "200 IM"
-    boys1a: "2:40.99"
-    boys6a: "2:29.99"
-    girls1a: "2:55.99"
-    girls6a: "2:41.99"
-
-  - event: "50 Freestyle"
-    boys1a: "0:29.99"
-    boys6a: "0:27.99"
-    girls1a: "0:30.99"
-    girls6a: "0:30.99"
-
-  - event: "Diving"
-    boys1a: 
-    boys6a: 
-    girls1a:
-    girls6a:
-
-  - event: "100 Butterfly"
-    boys1a: "1:10.99"
-    boys6a: "1:07.99"
-    girls1a: "1:17.99"
-    girls6a: "1:13.99"
-
-  - event: "100 Freestyle"
-    boys1a: "1:04.99"
-    boys6a: "1:00.99"
-    girls1a: "1:07.99"
-    girls6a: "1:07.99"
-
-  - event: "500 Freestyle"
-    boys1a: "6:30.99"
-    boys6a: "6:00.99"
-    girls1a: "6:57.99"
-    girls6a: "6:23.99"
-
-  - event: "200 Freestyle Relay"
-    boys1a: 
-    boys6a: 
-    girls1a:
-    girls6a:
-
-  - event: "100 Backstroke"
-    boys1a: "1:23.99"
-    boys6a: "1:08.99"
-    girls1a: "1:18.99"
-    girls6a: "1:13.99"
-
-  - event: "100 Breaststroke"
-    boys1a: "1:22.99"
-    boys6a: "1:16.99"
-    girls1a: "1:31.99"
-    girls6a: "1:24.99"
-
-  - event: "400 Freestyle Relay"
-    boys1a: 
-    boys6a: 
-    girls1a:
-    girls6a:
 ---
 
 <div class="bg-white py-32">
@@ -177,7 +31,7 @@ sectionals:
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-200">
-        {% for event in page.state %}
+        {% for event in site.data.state_times %}
         <tr>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys1a }}</td>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys6a }}</td>
@@ -206,7 +60,7 @@ sectionals:
         </tr>
       </thead>
       <tbody class="divide-y divide-gray-200">
-        {% for event in page.sectionals %}
+        {% for event in site.data.sectional_times %}
         <tr>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys1a }}</td>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys6a }}</td>
