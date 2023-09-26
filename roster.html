@@ -67,17 +67,27 @@ years:
     <div class="mx-auto max-w-2xl">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">2020 Roster</h2>
       <p class="mt-4">
-      Swimmers with a <i class="fa-solid fa-award text-brand mx-1"></i> icon are varsity swimmers.
+        Names with a
+        <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+        indicate varsity athletes.
       </p>
     </div>
-    
-    {% for gender in year %}
-    <h3>{{ gender[0] }}</h3>
-    <ul>
-      {% for person in gender[1] %}
-      <li>{{ person.name }} {% if person.varsity %}<i class="fa-solid fa-award text-brand mx-1"></i>{% endif %}</li>
+
+    <div class="mx-auto lg:flex justify-between max-w-4xl">
+      {% for gender in year %}
+        <div class="text-left">
+          <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">{{ gender[0] | capitalize }}</h3>
+          <ul class="sm:columns-2 gap-8 leading-8">
+            {% for person in gender[1] %}
+              <li class="whitespace-nowrap">{{ person.name }}
+                {% if person.varsity %}
+                  <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       {% endfor %}
-    </ul>
-    {% endfor %}
+    </div>
   </div>
 </div>
