@@ -1,36 +1,6 @@
 ---
 layout: page
 title: Board
-boards:
-- year: 2023-2024
-  people:
-    - title: President
-      name: Melissa Barne
-      symbol: { name: "fas fa-gavel", bg: "yellow-200", fg: "yellow-800" }
-    - title: Vice-President
-      name: John Hill
-      symbol: { name: "fas fa-star", bg: "red-200", fg: "red-800" }
-    - title: Treasurer
-      name: Amanda Quinn
-      symbol: { name: "fas fa-money-check-dollar", bg: "green-200", fg: "green-800" }
-    - title: Secretary
-      name: Carmen Wical
-      symbol: { name: "fas fa-feather-pointed", bg: "blue-200", fg: "blue-800" }
-    - title: Dive Rep
-      name: Gina Young
-      symbol: { name: "fas fa-water-ladder", bg: "purple-200", fg: "purple-800" }
-    - title: Apparel
-      name: Kim Watkins
-      symbol: { name: "fas fa-shirt", bg: "pink-200", fg: "pink-800" }
-    - title: Banquet Co-Chair
-      name: Janie Tribble
-      symbol: { name: "fas fa-utensils", bg: "sky-200", fg: "sky-800" }
-    - title: Banquet Co-Chair
-      name: Genia Miller
-      symbol: { name: "fas fa-utensils", bg: "orange-200", fg: "orange-800" }
-    - title: Banquet Co-Chair
-      name: Amy Yates
-      symbol: { name: "fas fa-utensils", bg: "teal-200", fg: "teal-800" }
 ---
 
 <div class="bg-white py-32">
@@ -40,7 +10,7 @@ boards:
       <p class="mt-4 text-lg leading-8 text-gray-600">Our volunteer board members keep things running smoothly.</p>
     </div>
 
-    {% for board in page.boards %}
+    {% for board in site.data.boards %}
       <h3 class="text-2xl font-bold tracking-tight text-brand mt-8">{{ board.year }}</h3>
       <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
 
@@ -48,7 +18,7 @@ boards:
           <li>
             <span class="fa-stack fa-3x">
               <i class="fa-solid fa-circle fa-stack-2x text-sky-800"></i>
-              <i class="{{ person.symbol.name }} fa-stack-1x text-brand-lightest"></i>
+              <i class="{{ person.symbol }} fa-stack-1x text-brand-lightest"></i>
             </span>
             <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{{ person.name }}</h3>
             <p class="text-sm leading-6 text-gray-600">{{ person.title }}</p>

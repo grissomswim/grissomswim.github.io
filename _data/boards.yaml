@@ -1,0 +1,29 @@
+- year: 2023-2024
+  people:
+    - title: President
+      name: Melissa Barne
+      symbol:  "fas fa-gavel"
+    - title: Vice-President
+      name: John Hill
+      symbol:  "fas fa-star"
+    - title: Treasurer
+      name: Amanda Quinn
+      symbol:  "fas fa-money-check-dollar"
+    - title: Secretary
+      name: Carmen Wical
+      symbol:  "fas fa-feather-pointed"
+    - title: Dive Rep
+      name: Gina Young
+      symbol:  "fas fa-water-ladder"
+    - title: Apparel
+      name: Kim Watkins
+      symbol:  "fas fa-shirt"
+    - title: Banquet Co-Chair
+      name: Janie Tribble
+      symbol:  "fas fa-utensils"
+    - title: Banquet Co-Chair
+      name: Genia Miller
+      symbol:  "fas fa-utensils"
+    - title: Banquet Co-Chair
+      name: Amy Yates
+      symbol:  "fas fa-utensils"
