@@ -1,3 +1,175 @@
+# 2022
+- title: "2022 State Championship"
+  notes: "6A-7A Division"
+  team_results:
+    - title: Girls Overall
+      result: 4th place
+    - title: Boys Overall
+      result: 9th place
+
+  relays:
+    - event: Girls 200 Yard Medley Relay
+      placement: 5th
+      team: [Kate Reeves, Bianca Wical, Sofia Roberts, Anna Henriksen]
+
+    - event: Girls 200 Yard Freestyle Relay
+      placement: 16th
+      team: [Bianca Wical, Alexia Wical, Sydney Kalange, Mae Watkins]
+
+    - event: Girls 400 Yard Freestyle Relay
+      placement: 3rd
+      team: [Sofia Roberts, Kate Reeves, Alexia Wical, Anna Henriksen]
+
+    - event: Boys 200 Yard Medley Relay
+      placement: 6th
+      team: [Parker Barnett, Evan Barnett, Liam Ashton, Thomas Watkins]
+
+    - event: Boys 400 Yard Freestyle Relay
+      placement: 9th
+      team: [Liam Ashton, Thomas Watkins, Evan Barnett, Parker Barnett]
+
+  individuals:
+    - name: Lydia Buechler
+      events:
+        200 Freestyle: 18th
+        500 Freestyle: 9th
+
+    - name: Bianca Wical
+      events:
+        200 Freestyle: 19th
+        100 Breaststroke: 16th
+
+    - name: Thomas Watkins
+      events:
+        200 Freestyle: 22nd
+        500 Freestyle: 18th
+
+    - name: Sofia Roberts
+      events:
+        200 IM: 4th
+        100 Breaststroke: 2nd
+
+    - name: Alexia Wical
+      events:
+        200 IM: 13th
+        100 Backstroke: 8th
+
+    - name: Parker Barnett
+      events:
+        200 IM: 10th
+        100 Backstroke: 9th
+
+    - name: Sydney Kalange
+      events:
+        200 IM: 17th
+        500 Freestyle: 13th
+
+    - name: Liam Ashton
+      events:
+        100 Butterfly: 15th
+
+    - name: Evan Barnett
+      events:
+        100 Butterfly: 20th
+        100 Breaststroke: 13th
+
+    - name: Jocelyn Reynolds
+      events:
+        100 Butterfly: 20th
+
+    - name: Kate Reeves
+      events:
+        100 Freestyle: 4th
+        100 Backstroke: 1st
+
+    - name: Anna Henriksen
+      events:
+        100 Backstroke: 11th
+
+    - name: Casey Sapp
+      events:
+        1 meter diving: 4th
+
+    - name: Peyton Lamber
+      events:
+        1 meter diving: 5th
+
+    - name: Lanie Salvail
+      events:
+        1 meter diving: 6th
+
+    - name: Keira Young
+      events:
+        1 meter diving: 10th
+
+# 2021
+- title: "2021 State Championship"
+  notes: "6A-7A Division"
+  team_results:
+    - title: Girls Overall
+      result: 5th place
+    - title: Boys Overall
+      result: 10th place
+
+  relays:
+    - event: "Girls 200 Yard Medley Relay"
+      placement: "4th"
+      team: ["Alexia Wical", "Sofia Roberts", "Kara Jones", "Kate Reeves"]
+
+    - event: "Girls 400 Yard Freestyle Relay"
+      placement: "4th"
+      team: ["Kate Reeves", "Alexia Wical", "Kara Jones", "Sofia Roberts"]
+
+    - event: "Boys 200 Yard Medley Relay"
+      placement: "12th"
+      team: ["Parker Barnett", "Evan Barnett", "Jake Stinson", "Matthew Rooker"]
+
+    - event: "Boys 200 Yard Freestyle Relay"
+      placement: "9th"
+      team: ["Walker Wilson", "Thomas Watkins", "Matthew Rooker", "Jake Stinson"]
+
+  individuals:
+  - name: Sofia Roberts
+    events:
+      "200 IM": "2nd"
+      "100 Breaststroke": "1st"
+
+  - name: Kara Jones
+    events:
+      "200 IM": "5th"
+      "100 Butterfly": "13th"
+
+  - name: Alexia Wical
+    events:
+      "200 IM": "10th"
+      "100 Backstroke": "16th"
+  
+  - name: Kate Reeves
+    events:
+      "100 Freestyle": "10th"
+      "100 Backstroke": "3rd"
+  
+  - name: Thomas Watkins
+    events:
+      "500 Freestyle": "13th"
+  
+  - name: Keira Young
+    events:
+      "1 meter diving": "8th"
+
+  - name: Peyton Lambert
+    events:
+      "1 meter diving": "12th"
+
+  - name: Garret George
+    events:
+      "1 meter diving": "1st"
+
+  - name: Casey Sapp
+    events:
+      "1 meter diving": "11th"
+
+# 2020
 - title: "2020 State Championship"
   notes: "6A-7A Division"
   team_results:
@@ -34,7 +206,7 @@
   individuals:
   - name: "Claire Blasingame"
     events:
-      "100 Fly": "7th"
+      "100 Butterfly": "7th"
       "100 Breaststroke": "10th"
 
   - name: "Owen Harlow"
