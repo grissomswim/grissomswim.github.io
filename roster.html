@@ -1,93 +1,41 @@
 ---
 layout: page
 title: Roster
-
-years:
-  2020:
-    boys:
-      - {name: "Evan Barnett", varsity: true}
-      - {name: "Parker Barnett", varsity: true}
-      - {name: "Garrett Dardin", varsity: true}
-      - {name: "David Ekstrom", varsity: true}
-      - {name: "Taylor Flinn", varsity: true}
-      - {name: "Garrett George", varsity: true}
-      - {name: "Gabe Hack", varsity: true}
-      - {name: "Owen Harlow", varsity: true}
-      - {name: "Fletcher Hesse", varsity: true}
-      - {name: "Aaron Hill", varsity: true}
-      - {name: "Jackson Lawson", varsity: true}
-      - {name: "Dellyn Martin", varsity: true}
-      - {name: "James Nester"}
-      - {name: "Jonathan Noland"}
-      - {name: "Matthew Osterbauer", varsity: true}
-      - {name: "Matthew Rooker", varsity: true}
-      - {name: "Luke Salvail", varsity: true}
-      - {name: "Alan Shipp", varsity: true}
-      - {name: "Henry Sithole"}
-      - {name: "Jake Stinson", varsity: true}
-      - {name: "Landon Theisen", varsity: true}
-      - {name: "Owen Topcik"}
-      - {name: "Taylor Tribble", varsity: true}
-      - {name: "Peter Varmette", varsity: true}
-      - {name: "Thomas Watkins", varsity: true}
-      - {name: "Walker Wilson", varsity: true}
-      - {name: "Kiran Windham", varsity: true}
-      - {name: "Gabriel Wood", varsity: true}
-    girls:
-      - {name: "Hannah Blasingame", varsity: true}
-      - {name: "Catherine Chua", varsity: true}
-      - {name: "Caroline Cost", varsity: true}
-      - {name: "Bailey Flinn", varsity: true}
-      - {name: "Madison Flinn", varsity: true}
-      - {name: "Lily Franklin", varsity: true}
-      - {name: "Ava Henriksen", varsity: true}
-      - {name: "Emma Henriksen"}
-      - {name: "Krysanne Hicks", varsity: true}
-      - {name: "Ashlyn Johnson", varsity: true}
-      - {name: "Sydney Kalange", varsity: true}
-      - {name: "Tess Lindow", varsity: true}
-      - {name: "Erin McCutcheon"}
-      - {name: "Makinley Newby", varsity: true}
-      - {name: "Kate Reeves", varsity: true}
-      - {name: "Sofia Roberts", varsity: true}
-      - {name: "Emily Shattuck", varsity: true}
-      - {name: "Addison Smith", varsity: true}
-      - {name: "Torri Walker", varsity: true}
-      - {name: "Deanna Waters", varsity: true}
-      - {name: "Alexia Wical", varsity: true}
-      - {name: "Adison Yates", varsity: true}
-      - {name: "Keira Young", varsity: true}
-      - {name: "Sophia Zajac", varsity: true}
-      - {name: "Camille Zibas", varsity: true}
 ---
 
-<div class="bg-white py-32">
-  <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
-    {% assign year = page.years[2020] %}
-    <div class="mx-auto max-w-2xl">
-      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">2020 Roster</h2>
-      <p class="mt-4">
-        Names with a
-        <i class="fa-solid fa-award text-sky-700 mx-1"></i>
-        indicate varsity athletes.
-      </p>
-    </div>
+<div class="bg-white py-12">
+  {% for roster in site.data.rosters %}
+    <div class="mx-auto mt-20 max-w-7xl px-6 text-center lg:px-8">
+      {% assign year = roster[0] %}
+      {% assign genders = roster[1] %}
+      <div class="mx-auto max-w-2xl">
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ year }} Roster</h2>
+        {% assign num_varsity = genders.boys | concat: genders.girls | where: 'varsity', true | size %}
+        {% if num_varsity > 0 %}
+          <p class="mt-4">
+            Names with a
+            <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+            indicate varsity athletes.
+          </p>
+        {% endif %}
+      </div>
 
-    <div class="mx-auto lg:flex justify-between max-w-4xl">
-      {% for gender in year %}
-        <div class="text-left">
-          <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">{{ gender[0] | capitalize }}</h3>
-          <ul class="sm:columns-2 gap-8 leading-8">
-            {% for person in gender[1] %}
-              <li class="whitespace-nowrap">{{ person.name }}
-                {% if person.varsity %}
-                  <i class="fa-solid fa-award text-sky-700 mx-1"></i>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
+      <div class="mx-auto lg:flex justify-between max-w-4xl">
+        {% for gender in genders %}
+          <div class="text-left">
+            <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">{{ gender[0] | capitalize }}</h3>
+            <ul class="sm:columns-2 gap-8 leading-8">
+              {% for person in gender[1] %}
+                <li class="whitespace-nowrap">{{ person.name }}
+                  {% if person.varsity %}
+                    <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
 </div>

@@ -1,0 +1,220 @@
+2023:
+  boys:
+    - {name: "Andrew Howard", varsity: false}
+    - {name: "Dylan Maples", varsity: false}
+    - {name: "Aeron Yates", varsity: false}
+    - {name: "Christian Alderson", varsity: false}
+    - {name: "Liam Ashton", varsity: false}
+    - {name: "Parker Barnett", varsity: false}
+    - {name: "Seth Byler", varsity: false}
+    - {name: "Walt Cooper", varsity: false}
+    - {name: "Mark Crook", varsity: false}
+    - {name: "Samuel Elliott", varsity: false}
+    - {name: "Adam Hill", varsity: false}
+    - {name: "Luke Johnson", varsity: false}
+    - {name: "Paul Jones", varsity: false}
+    - {name: "Cole McNeal", varsity: false}
+    - {name: "Luke Morris", varsity: false}
+    - {name: "Owen Roberts", varsity: false}
+    - {name: "Landon Quinn", varsity: false}
+    - {name: "Kaleb Underwood", varsity: false}
+    - {name: "Finley Walker", varsity: false}
+    - {name: "Thomas Watkins", varsity: false}
+    - {name: "Blake West", varsity: false}
+    - {name: "Adam Vosahlik", varsity: false}
+  girls:
+    - {name: "Lareeta Ashton", varsity: false}
+    - {name: "Lily Franklin", varsity: false}
+    - {name: "Peyton Lambert", varsity: false}
+    - {name: "Anna Lindy", varsity: false}
+    - {name: "Sydney Maples", varsity: false}
+    - {name: "Lanie Salvail", varsity: false}
+    - {name: "Lydia Buechler", varsity: false}
+    - {name: "Anessa Del Valle", varsity: false}
+    - {name: "Anna Earl", varsity: false}
+    - {name: "Jade Guillermo", varsity: false}
+    - {name: "Charlotte Hardt", varsity: false}
+    - {name: "Anna Henriksen", varsity: false}
+    - {name: "Ava Henriksen", varsity: false}
+    - {name: "Krysanne Hicks", varsity: false}
+    - {name: "Hannah Hill", varsity: false}
+    - {name: "Serenity Holland", varsity: false}
+    - {name: "Brianna Jackson", varsity: false}
+    - {name: "Kara Jones", varsity: false}
+    - {name: "Abby Ledford", varsity: false}
+    - {name: "Taylor Miller", varsity: false}
+    - {name: "Clara Morris", varsity: false}
+    - {name: "Makinley Newby", varsity: false}
+    - {name: "Erin O'Halloran", varsity: false}
+    - {name: "Lily Kate Robley", varsity: false}
+    - {name: "Allie Spink", varsity: false}
+    - {name: "Taylor Tribble", varsity: false}
+    - {name: "Mae Watkins", varsity: false}
+    - {name: "Alexia Wical", varsity: false}
+    - {name: "Bianca Wical", varsity: false}
+    - {name: "Keira Young", varsity: false}
+
+2022:
+  boys:
+    - {name: "Liam Ashton", varsity: true}
+    - {name: "Evan Barnett", varsity: true}
+    - {name: "Parker Barnett", varsity: true}
+    - {name: "James Busby", varsity: false}
+    - {name: "Seth Byler", varsity: false}
+    - {name: "Mark Crook", varsity: true}
+    - {name: "Garrett Dardin", varsity: true}
+    - {name: "Adam Hill", varsity: true}
+    - {name: "Bryson Johns", varsity: false}
+    - {name: "Luke Johnson", varsity: true}
+    - {name: "Paul Jones", varsity: true}
+    - {name: "Tyler Lensch", varsity: false}
+    - {name: "Gabe Lindow", varsity: true}
+    - {name: "Liam O'Halloran", varsity: false}
+    - {name: "Landon Quinn", varsity: true}
+    - {name: "Casey Sapp", varsity: true}
+    - {name: "Taylor Tribble", varsity: true}
+    - {name: "Adam Vosahlik", varsity: false}
+    - {name: "Thomas Watkins", varsity: true}
+    - {name: "Blake West", varsity: false}
+    - {name: "Gabe Wood", varsity: false}
+  girls:
+    - {name: "Hannah Barrow", varsity: true}
+    - {name: "Lydia Buechler", varsity: true}
+    - {name: "Caroline Cost", varsity: true}
+    - {name: "Kathleen Earl", varsity: false}
+    - {name: "Anna Earl", varsity: false}
+    - {name: "Anna Henriksen", varsity: true}
+    - {name: "Ava Henriksen", varsity: true}
+    - {name: "Emma Henriksen", varsity: true}
+    - {name: "Krysanne Hicks", varsity: true}
+    - {name: "Kara Jones", varsity: true}
+    - {name: "Sydney Kalange", varsity: true}
+    - {name: "Peyton Lambert", varsity: true}
+    - {name: "Abby Ledford", varsity: true}
+    - {name: "Kristen Lingle", varsity: true}
+    - {name: "Taylor Miller", varsity: true}
+    - {name: "Makinley Newby", varsity: false}
+    - {name: "Kate Reeves", varsity: true}
+    - {name: "Sofia Roberts", varsity: true}
+    - {name: "Lanie Salvail", varsity: true}
+    - {name: "Mae Watkins", varsity: true}
+    - {name: "Alexia Wical", varsity: true}
+    - {name: "Bianca Wical", varsity: true}
+    - {name: "Keira Young", varsity: true}
+
+2021:
+  boys:
+    - {name: "Garrett George", varsity: true}
+    - {name: "Peyton Lambert", varsity: true}
+    - {name: "Casey Sapp", varsity: true}
+    - {name: "Liam Ashton", varsity: true}
+    - {name: "Evan Barnett", varsity: true}
+    - {name: "Parker Barnett", varsity: true}
+    - {name: "Seth Byler", varsity: true}
+    - {name: "Reece Carden", varsity: true}
+    - {name: "David Ekstrom", varsity: false}
+    - {name: "Samuel Elliott", varsity: false}
+    - {name: "Fletcher Hesse", varsity: true}
+    - {name: "Adam Hill", varsity: true}
+    - {name: "Mason Hart", varsity: false}
+    - {name: "Paul Jones", varsity: true}
+    - {name: "Jackson Lawson", varsity: true}
+    - {name: "Tyler Lensch", varsity: false}
+    - {name: "Gabe Lindow", varsity: true}
+    - {name: "Cole McNeal", varsity: false}
+    - {name: "Luke Morris", varsity: false}
+    - {name: "Jonathon Noland", varsity: true}
+    - {name: "Matthew Osterbauer", varsity: false}
+    - {name: "Matthew Rooker", varsity: true}
+    - {name: "Luke Salvail", varsity: true}
+    - {name: "Alan Shipp", varsity: true}
+    - {name: "Deisen Stifflemire", varsity: false}
+    - {name: "Jake Stinson", varsity: true}
+    - {name: "Owen Topcik", varsity: true}
+    - {name: "Taylor Tribble", varsity: false}
+    - {name: "Torri Walker", varsity: false}
+    - {name: "Thomas Watkins", varsity: true}
+    - {name: "Walker Wilson", varsity: true}
+    - {name: "Adison Yates", varsity: false}
+  girls:
+    - {name: "Keira Young", varsity: true}
+    - {name: "Eden Bhika", varsity: true}
+    - {name: "Lydia Buechler", varsity: true}
+    - {name: "Caroline Cost", varsity: true}
+    - {name: "Anna Earl", varsity: true}
+    - {name: "Kathleen Earl", varsity: true}
+    - {name: "Anna Henriksen", varsity: true}
+    - {name: "Ava Henriksen", varsity: true}
+    - {name: "Emma Henriksen", varsity: false}
+    - {name: "Krysanne Hicks", varsity: true}
+    - {name: "Kara Jones", varsity: true}
+    - {name: "Sydney Kalange", varsity: true}
+    - {name: "Kristen Lingle", varsity: true}
+    - {name: "Claudia Lowe", varsity: true}
+    - {name: "Katera McCoy", varsity: true}
+    - {name: "Taylor Miller", varsity: true}
+    - {name: "Kate Reeves", varsity: true}
+    - {name: "Sofia Roberts", varsity: true}
+    - {name: "Samantha Sanabria", varsity: false}
+    - {name: "Kaitlyn Scott", varsity: false}
+    - {name: "Addison Smith", varsity: false}
+    - {name: "Deanna Waters", varsity: false}
+    - {name: "Alexia Wical", varsity: true}
+    - {name: "Sophia Zajac", varsity: true}
+
+2020:
+  boys:
+    - {name: "Evan Barnett", varsity: true}
+    - {name: "Parker Barnett", varsity: true}
+    - {name: "Garrett Dardin", varsity: true}
+    - {name: "David Ekstrom", varsity: true}
+    - {name: "Taylor Flinn", varsity: true}
+    - {name: "Garrett George", varsity: true}
+    - {name: "Gabe Hack", varsity: true}
+    - {name: "Owen Harlow", varsity: true}
+    - {name: "Fletcher Hesse", varsity: true}
+    - {name: "Aaron Hill", varsity: true}
+    - {name: "Jackson Lawson", varsity: true}
+    - {name: "Dellyn Martin", varsity: true}
+    - {name: "James Nester"}
+    - {name: "Jonathan Noland"}
+    - {name: "Matthew Osterbauer", varsity: true}
+    - {name: "Matthew Rooker", varsity: true}
+    - {name: "Luke Salvail", varsity: true}
+    - {name: "Alan Shipp", varsity: true}
+    - {name: "Henry Sithole"}
+    - {name: "Jake Stinson", varsity: true}
+    - {name: "Landon Theisen", varsity: true}
+    - {name: "Owen Topcik"}
+    - {name: "Taylor Tribble", varsity: true}
+    - {name: "Peter Varmette", varsity: true}
+    - {name: "Thomas Watkins", varsity: true}
+    - {name: "Walker Wilson", varsity: true}
+    - {name: "Kiran Windham", varsity: true}
+    - {name: "Gabriel Wood", varsity: true}
+  girls:
+    - {name: "Hannah Blasingame", varsity: true}
+    - {name: "Catherine Chua", varsity: true}
+    - {name: "Caroline Cost", varsity: true}
+    - {name: "Bailey Flinn", varsity: true}
+    - {name: "Madison Flinn", varsity: true}
+    - {name: "Lily Franklin", varsity: true}
+    - {name: "Ava Henriksen", varsity: true}
+    - {name: "Emma Henriksen"}
+    - {name: "Krysanne Hicks", varsity: true}
+    - {name: "Ashlyn Johnson", varsity: true}
+    - {name: "Sydney Kalange", varsity: true}
+    - {name: "Tess Lindow", varsity: true}
+    - {name: "Erin McCutcheon"}
+    - {name: "Makinley Newby", varsity: true}
+    - {name: "Kate Reeves", varsity: true}
+    - {name: "Sofia Roberts", varsity: true}
+    - {name: "Emily Shattuck", varsity: true}
+    - {name: "Addison Smith", varsity: true}
+    - {name: "Torri Walker", varsity: true}
+    - {name: "Deanna Waters", varsity: true}
+    - {name: "Alexia Wical", varsity: true}
+    - {name: "Adison Yates", varsity: true}
+    - {name: "Keira Young", varsity: true}
+    - {name: "Sophia Zajac", varsity: true}
+    - {name: "Camille Zibas", varsity: true}
