@@ -5,37 +5,37 @@ title: Roster
 
 <div class="bg-white py-12">
   {% for roster in site.data.rosters %}
-    <div class="mx-auto mt-20 max-w-7xl px-6 text-center lg:px-8">
-      {% assign year = roster[0] %}
-      {% assign genders = roster[1] %}
-      <div class="mx-auto max-w-2xl">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ year }} Roster</h2>
-        {% assign num_varsity = genders.boys | concat: genders.girls | where: 'varsity', true | size %}
-        {% if num_varsity > 0 %}
-          <p class="mt-4">
-            Names with a
-            <i class="fa-solid fa-award text-sky-700 mx-1"></i>
-            indicate varsity athletes.
-          </p>
-        {% endif %}
-      </div>
+  <div class="mx-auto mt-20 max-w-7xl px-6 text-center lg:px-8">
+    {% assign year = roster[0] %}
+    {% assign genders = roster[1] %}
+    <div class="mx-auto max-w-2xl">
+      <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ year }} Roster</h2>
+      {% assign num_varsity = genders.boys | concat: genders.girls | where: 'varsity', true | size %}
+      {% if num_varsity > 0 %}
+      <p class="mt-4">
+        Names with a
+        <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+        indicate varsity athletes.
+      </p>
+      {% endif %}
+    </div>
 
-      <div class="mx-auto lg:flex justify-between max-w-4xl">
-        {% for gender in genders %}
-          <div class="text-left">
-            <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">{{ gender[0] | capitalize }}</h3>
-            <ul class="sm:columns-2 gap-8 leading-8">
-              {% for person in gender[1] %}
-                <li class="whitespace-nowrap">{{ person.name }}
-                  {% if person.varsity %}
-                    <i class="fa-solid fa-award text-sky-700 mx-1"></i>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        {% endfor %}
+    <div class="mx-auto lg:flex max-w-4xl">
+      {% for gender in genders %}
+      <div class="text-left lg:w-1/2">
+        <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">{{ gender[0] | capitalize }}</h3>
+        <ul class="min-[500px]:columns-2 gap-8 leading-8">
+          {% for person in gender[1] %}
+          <li class="whitespace-nowrap">{{ person.name }}
+            {% if person.varsity %}
+            <i class="fa-solid fa-award text-sky-700 mx-1"></i>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
+  {% endfor %}
 </div>
