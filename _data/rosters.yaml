@@ -1,57 +1,61 @@
 2023:
   boys:
-    - {name: "Christian Alderson", varsity: false}
-    - {name: "Liam Ashton", varsity: false}
-    - {name: "Parker Barnett", varsity: false}
-    - {name: "Seth Byler", varsity: false}
-    - {name: "Walt Cooper", varsity: false}
-    - {name: "Mark Crook", varsity: false}
-    - {name: "Samuel Elliott", varsity: false}
-    - {name: "Adam Hill", varsity: false}
-    - {name: "Andrew Howard", varsity: false}
-    - {name: "Luke Johnson", varsity: false}
-    - {name: "Paul Jones", varsity: false}
-    - {name: "Dylan Maples", varsity: false}
+    - {name: "Christian Alderson", varsity: true}
+    - {name: "Liam Ashton", varsity: true}
+    - {name: "Parker Barnett", varsity: true}
+    - {name: "James Busby", varsity: true}
+    - {name: "Seth Byler", varsity: true}
+    - {name: "Walt Cooper", varsity: true}
+    - {name: "Mark Crook", varsity: true}
+    - {name: "Samuel Elliott", varsity: true}
+    - {name: "Adam Hill", varsity: true}
+    - {name: "Andrew Howard", varsity: true}
+    - {name: "Luke Johnson", varsity: true}
+    - {name: "Paul Jones", varsity: true}
+    - {name: "Tyler Lensch", varsity: true}
+    - {name: "Dylan Maples", varsity: true}
     - {name: "Cole McNeal", varsity: false}
-    - {name: "Luke Morris", varsity: false}
-    - {name: "Landon Quinn", varsity: false}
+    - {name: "Luke Morris", varsity: true}
+    - {name: "Landon Quinn", varsity: true}
     - {name: "Owen Roberts", varsity: false}
+    - {name: "Casey Sapp", varsity: true}
     - {name: "Kaleb Underwood", varsity: false}
     - {name: "Adam Vosahlik", varsity: false}
     - {name: "Finley Walker", varsity: false}
-    - {name: "Thomas Watkins", varsity: false}
+    - {name: "Thomas Watkins", varsity: true}
     - {name: "Blake West", varsity: false}
-    - {name: "Aeron Yates", varsity: false}
+    - {name: "Aeron Yates", varsity: true}
   girls:
-    - {name: "Lareeta Ashton", varsity: false}
-    - {name: "Lydia Buechler", varsity: false}
-    - {name: "Anessa Del Valle", varsity: false}
+    - {name: "Lareeta Ashton", varsity: true}
+    - {name: "Lydia Buechler", varsity: true}
+    - {name: "Anessa Del Valle", varsity: true}
     - {name: "Anna Earl", varsity: false}
-    - {name: "Lily Franklin", varsity: false}
+    - {name: "Lily Franklin", varsity: true}
     - {name: "Jade Guillermo", varsity: false}
     - {name: "Charlotte Hardt", varsity: false}
-    - {name: "Anna Henriksen", varsity: false}
-    - {name: "Ava Henriksen", varsity: false}
-    - {name: "Krysanne Hicks", varsity: false}
-    - {name: "Serenity Holland", varsity: false}
+    - {name: "Anna Henriksen", varsity: true}
+    - {name: "Ava Henriksen", varsity: true}
+    - {name: "Krysanne Hicks", varsity: true}
+    - {name: "Hannah Hill", varsity: false}
+    - {name: "Serenity Holland", varsity: true}
     - {name: "Brianna Jackson", varsity: false}
-    - {name: "Kara Jones", varsity: false}
-    - {name: "Peyton Lambert", varsity: false}
+    - {name: "Kara Jones", varsity: true}
+    - {name: "Peyton Lambert", varsity: true}
     - {name: "Abby Ledford", varsity: false}
-    - {name: "Anna Lindy", varsity: false}
-    - {name: "Sydney Maples", varsity: false}
-    - {name: "Taylor Miller", varsity: false}
+    - {name: "Anna Lindy", varsity: true}
+    - {name: "Sydney Maples", varsity: true}
+    - {name: "Taylor Miller", varsity: true}
     - {name: "Clara Morris", varsity: false}
-    - {name: "Makinley Newby", varsity: false}
+    - {name: "Makinley Newby", varsity: true}
     - {name: "Erin O'Halloran", varsity: false}
-    - {name: "Lily Kate Robley", varsity: false}
-    - {name: "Lanie Salvail", varsity: false}
-    - {name: "Allie Spink", varsity: false}
+    - {name: "Lily Kate Robley", varsity: true}
+    - {name: "Lanie Salvail", varsity: true}
+    - {name: "Allie Spink", varsity: true}
     - {name: "Taylor Tribble", varsity: false}
-    - {name: "Mae Watkins", varsity: false}
-    - {name: "Alexia Wical", varsity: false}
-    - {name: "Bianca Wical", varsity: false}
-    - {name: "Keira Young", varsity: false}
+    - {name: "Mae Watkins", varsity: true}
+    - {name: "Alexia Wical", varsity: true}
+    - {name: "Bianca Wical", varsity: true}
+    - {name: "Keira Young", varsity: true}
 
 2022:
   boys:
