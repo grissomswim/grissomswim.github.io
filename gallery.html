@@ -16,7 +16,7 @@ years:
   {% for year in page.years %}
     <div class="mt-12">
       <h3 class="mb-4 text-2xl font-bold tracking-tight text-brand sm:text-3xl">{{ year[0] }}</h3>
-      <div class="flex flex-wrap space-x-16">
+      <div class="flex flex-wrap gap-x-16">
         {% for image in year[1] %}
           {% assign path = page.gallery_path | append: image.image | relative_url %}
           <figure>
