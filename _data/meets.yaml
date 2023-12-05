@@ -1,3 +1,97 @@
+# 2023
+- title: "2023 State Championship"
+  notes: "6A-7A Division"
+  team_results:
+    - title: Girls Overall
+      result: 5th place
+    - title: Boys Overall
+      result: 5th place
+
+  relays:
+    - event: Boys 400 Yard Freestyle Relay
+      placement: 3rd
+      team: [Mark Crook, Liam Ashton, Thomas Watkins, Parker Barnett]
+
+    - event: Boys 200 Yard Medley Relay
+      placement: 4th
+      team: [Parker Barnett, Thomas Watkins, Liam Ashton, Mark Crook]
+
+    - event: Girls 400 Yard Freestyle Relay
+      placement: 5th
+      team: [Bianca Wical, Allie Spink, Lydia Buechler, Alexia Wical]
+
+    - event: Girls 200 Yard Medley Relay
+      placement: 7th
+      team: [Mae Watkins, Bianca Wical, Alexia Wical, Allie Spink]
+
+    - event: Boys 200 Yard Freestyle Relay
+      placement: 12th
+      team: [Christian Alderson, Luke Johnson, Luke Morris, Landon Quinn]
+
+  individuals:
+    - name: Lanie Salvail
+      events:
+        1 meter diving: 2nd
+
+    - name: Casey Sapp
+      events:
+        1 meter diving: 2nd
+
+    - name: Keira Young
+      events:
+        1 meter diving: 6th
+
+    - name: Peyton Lambert
+      events:
+        1 meter diving: 7th
+
+    - name: Andrew Howard
+      events:
+        1 meter diving: 9th
+
+    - name: Lily Franklin
+      events:
+        1 meter diving: 13th
+
+    - name: Lydia Buechler
+      events:
+        500 Freestyle: 2nd
+        200 Freestyle: 7th
+
+    - name: Liam Ashton
+      events:
+        100 Butterfly: 5th
+        200 Freestyle: 10th
+
+    - name: Bianca Wical
+      events:
+        200 IM: 5th
+        100 Breaststroke: 10th
+
+    - name: Parker Barnett
+      events:
+        100 Backstroke: 7th
+        200 IM: 8th
+
+    - name: Alexia Wical
+      events:
+        100 Backstroke: 7th
+        100 Butterfly: 10th
+
+    - name: Thomas Watkins
+      events:
+        100 Breaststroke: 8th
+        500 Freestyle: 14th
+
+    - name: Allie Spink
+      events:
+        100 Freestyle: 11th
+
+    - name: Mark Crook
+      events:
+        500 Freestyle: 12th
+        200 IM: 14th
+
 # 2022
 - title: "2022 State Championship"
   notes: "6A-7A Division"
