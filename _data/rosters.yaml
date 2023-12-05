@@ -19,6 +19,7 @@
     - {name: "Landon Quinn", varsity: true}
     - {name: "Owen Roberts", varsity: false}
     - {name: "Casey Sapp", varsity: true}
+    - {name: "Taylor Tribble", varsity: false}
     - {name: "Kaleb Underwood", varsity: false}
     - {name: "Adam Vosahlik", varsity: false}
     - {name: "Finley Walker", varsity: false}
@@ -51,7 +52,6 @@
     - {name: "Lily Kate Robley", varsity: true}
     - {name: "Lanie Salvail", varsity: true}
     - {name: "Allie Spink", varsity: true}
-    - {name: "Taylor Tribble", varsity: false}
     - {name: "Mae Watkins", varsity: true}
     - {name: "Alexia Wical", varsity: true}
     - {name: "Bianca Wical", varsity: true}
