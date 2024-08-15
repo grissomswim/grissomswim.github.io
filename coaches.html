@@ -8,6 +8,8 @@ coaches:
   - name: Felipe Cortes
     title: Head Swim Coach
     image: /assets/images/felipe-cortes.jpg
+  - name: Celeste Turner
+    title: Swim Coach
   - name: Robert Raley
     title: Head Dive Coach
     image: assets/images/robert-raley.jpg
@@ -19,14 +21,21 @@ coaches:
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Coaching Staff</h2>
       <p class="mt-4 text-lg leading-8 text-gray-600">Our coaches are committed to unlocking each athlete's potential, instilling discipline, and fostering a lifelong love for swimming and diving.</p>
     </div>
-    <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+    <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2 lg:mx-0 lg:max-w-none">
 
       {% for coach in page.coaches %}
         <li>
-          <img
-            class="mx-auto h-56 w-56 rounded-full"
-            src="{{ coach.image | relative_url }}"
-            alt="">
+          {% if coach.image %}
+            <img
+              class="mx-auto h-56 w-56 rounded-full"
+              src="{{ coach.image | relative_url }}"
+              alt="">
+          {% else %}
+            <span class="fa-stack fa-7x">
+              <i class="fa-solid fa-circle fa-stack-2x text-sky-800"></i>
+              <i class="fa-solid fa-trophy fa-stack-1x text-brand-lightest"></i>
+            </span>
+          {% endif %}
           <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{{ coach.name }}</h3>
           <p class="text-sm leading-6 text-gray-600">{{ coach.title }}</p>
         </li>
