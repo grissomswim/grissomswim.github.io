@@ -5,16 +5,21 @@ title: Time Standards
 
 <div class="bg-white py-32">
   <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
-    <div class="mx-auto max-w-2xl">
+    <div class="mx-auto max-w-2xl flex flex-col gap-4">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Time Standards</h2>
-      <p class="mt-4">
+      <p>
         See the
-        <a href="https://www.ahsaa.com/Sports/Fall/Swimming-Diving" class="text-sky-500 hover:text-sky-600">AHSAA webpage</a>
-        for official tables.
+        <a href="https://www.ahsaa.com/Sports/Fall/Swimming-Diving" class="text-sky-500 hover:text-sky-600">AHSAA
+          webpage</a>
+        for official tables. Grissom is a 6A-7A school.
+      </p>
+      <p>
+        Sectionals meets have been eliminated in 2024. Qualifying times for the state can be achieved at any
+        official meet during the season.
       </p>
     </div>
 
-    <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">2023 AHSAA State Time Standards</h3>
+    <h3 class="mt-12 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">2024 AHSAA State Time Standards</h3>
     <table class="min-w-full divide-y divide-gray-300">
       <thead class="bg-gray-100">
         <tr>
@@ -32,35 +37,6 @@ title: Time Standards
       </thead>
       <tbody class="divide-y divide-gray-200">
         {% for event in site.data.state_times %}
-        <tr>
-          <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys1a }}</td>
-          <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys6a }}</td>
-          <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-800 font-medium bg-gray-100">{{ event.event }}</td>
-          <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.girls1a }}</td>
-          <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.girls6a }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-
-    <h3 class="mt-20 mb-8 text-xl font-bold tracking-tight text-brand sm:text-2xl">2023 AHSAA Sectional Meet Qualifying Times</h3>
-    <table class="min-w-full divide-y divide-gray-300">
-      <thead class="bg-gray-100">
-        <tr>
-          <th colspan="2" scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">Boys</th>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900"></th>
-          <th colspan="2" scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">Girls</th>
-        </tr>
-        <tr>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">1A-5A</th>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">6A-7A</th>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900 bg-gray-200">Event</th>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">1A-5A</th>
-          <th scope="col" class="px-3 py-3.5 text-sm font-semibold text-gray-900">6A-7A</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-gray-200">
-        {% for event in site.data.sectional_times %}
         <tr>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys1a }}</td>
           <td class="whitespace-nowrap px-3 py-2 text-sm text-gray-500">{{ event.boys6a }}</td>
