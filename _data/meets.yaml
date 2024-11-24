@@ -1,3 +1,96 @@
+# 2024
+- title: "2024 State Championship"
+  notes: "6A-7A Division"
+  team_results:
+    - title: Girls Overall
+      result: 4th place
+    - title: Boys Overall
+      result: 6th place
+
+  relays:
+    - event: Women 200 Yard Free Relay
+      placement: 1st
+      team: [Anna Henriksen, Mae Watkins, Allie Spink, Kara Jones]
+
+    - event: Men 200 Yard Free Relay
+      placement: 3rd
+      team: [Mark Crook, Walt Cooper, Christian Alderson, Parker Barnett]
+
+    - event: Women 400 Yard Free Relay
+      placement: 2nd
+      team: [Kara Jones, Lydia Buechler, Allie Spink, Anna Henriksen]
+
+    - event: Men 400 Yard Free Relay
+      placement: 3rd
+      team: [Parker Barnett, Greg Dickens, Walt Cooper, Mark Crook]
+
+  individuals:
+    - name: Allie Spink
+      events:
+        200 Freestyle: 2nd
+        100 Freestyle: 6nd
+          
+    - name: Kara Jones
+      events:
+        200 Freestyle: 1st
+        100 Butterfly: 2nd
+
+    - name: Lydia Buechler
+      events:
+        200 Freestyle: 8th
+        500 Freestyle: 8th
+
+    - name: Mark Crook
+      events:
+        200 Freestyle: 5th
+        100 Butterfly: 12th
+
+    - name: Walt Cooper
+      events:
+        50 Freestyle: 10th
+        100 Breaststroke: 12th
+
+    - name: Peyton Lambert
+      events:
+        1 meter Diving: 4th
+
+    - name: Lanie Salvail
+      events:
+        1 meter Diving: 5th
+
+    - name: Elizabeth Evans
+      events:
+        1 meter Diving: 7th
+
+    - name: Andrew Howard
+      events:
+        1 meter Diving: 4th
+
+    - name: Casey Sapp
+      events:
+        1 meter Diving: 1st
+
+    - name: Dylan Maples
+      events:
+        1 meter Diving: 12th
+
+    - name: James Busby
+      events:
+        1 meter Diving: 14th
+
+    - name: Parker Barnett
+      events:
+        50 Freestyle: 4th
+        100 Backstroke: 2nd
+    
+    - name: Anna Henriksen
+      events:
+        100 Backstroke: 6th
+    
+    - name: Keira Young
+      events:
+        100 Backstroke: 14th
+
 # 2023
 - title: "2023 State Championship"
   notes: "6A-7A Division"
@@ -262,82 +355,3 @@
   - name: Casey Sapp
     events:
       "1 meter diving": "11th"
-
-# 2020
-- title: "2020 State Championship"
-  notes: "6A-7A Division"
-  team_results:
-    - title: Girls Overall
-      result: 12th place
-    - title: Boys Overall
-      result: 10th place
-
-  relays:
-    - event: "Girls 200 yard Medley Relay"
-      placement: "11th"
-      team: ["Wical", "Blasingame", "Roberts", "Reeves"]
-
-    - event: "Girls 200 yard Free Relay"
-      placement: "11th"
-      team: ["Smith", "Kalange", "Zajac", "Wical"]
-
-    - event: "Girls 400 yard Freestyle Relay"
-      placement: "8th"
-      team: ["Blasingame", "Kalange", "Reeves", "Roberts"]
-
-    - event: "Boys 200 Medley Relay"
-      placement: "8th"
-      team: ["Hill", "Barnett", "Stinson", "Harlow"]
-
-    - event: "Boys 200 yard Freestyle Relay"
-      placement: "3rd"
-      team: ["Harlow", "Hill", "Wilson", "Stinson"]
-
-    - event: "Boys 400 Freestyle Relay"
-      placement: "8th"
-      team: ["Barnett", "Hill", "Wilson", "Stinson"]
-
-  individuals:
-  - name: "Claire Blasingame"
-    events:
-      "100 Butterfly": "7th"
-      "100 Breaststroke": "10th"
-
-  - name: "Owen Harlow"
-    events:
-      "50 Freestyle": "1st"
-      "100 Freestyle": "1st"
-
-  - name: "Aaron Hill"
-    events:
-      "100 Backstroke": "7th"
-
-  - name: "Kate Reeves"
-    events:
-      "200 Freestyle": "13th"
-      "100 Backstroke": "7th"
-
-  - name: "Sofia Roberts"
-    events:
-      "200 IM": "7th"
-      "100 Breastroke": "2nd"
-
-  - name: "Lily Franklin"
-    events:
-      "1 meter diving": "14th"
-
-  - name: "Ashlyn Johnson"
-    events:
-      "1 meter diving": "18th"
-
-  - name: "Keira Young"
-    events:
-      "1 meter diving": "16th"
-
-  - name: "Garrett George"
-    events:
-      "1 meter diving": "2nd"
-
-  - name: "Pete Varmette"
-    events:
-      "1 meter diving": "14th"
