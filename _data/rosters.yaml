@@ -1,3 +1,53 @@
+2024:
+  boys:
+    - {name: "Christian Alderson", varsity: true}
+    - {name: "Parker Barnett", varsity: true}
+    - {name: "James Busby", varsity: true}
+    - {name: "Walt Cooper", varsity: true}
+    - {name: "Mark Crook", varsity: true}
+    - {name: "Adam Hill", varsity: true}
+    - {name: "Andrew Howard", varsity: true}
+    - {name: "Luke Johnson", varsity: true}
+    - {name: "Paul Jones", varsity: true}
+    - {name: "Tyler Lensch", varsity: false}
+    - {name: "Dylan Maples", varsity: true}
+    - {name: "Owen Roberts", varsity: false}
+    - {name: "Josh Salter", varsity: false}
+    - {name: "Casey Sapp", varsity: true}
+    - {name: "Jacob Weirenga", varsity: true}
+    - {name: "Jonathon Wilson", varsity: false}
+    - {name: "Aeron Yates", varsity: true}
+    - {name: "Greg Dickens", varsity: true}
+    - {name: "Eli Hough", varsity: true}
+  girls:
+    - {name: "Azul Abril", varsity: false}
+    - {name: "Lydia Buechler", varsity: true}
+    - {name: "Anessa Del Valle", varsity: false}
+    - {name: "Anna Earl", varsity: false}
+    - {name: "Elizabeth Evans", varsity: true}
+    - {name: "Kaitlyn Fleming", varsity: false}
+    - {name: "Jade Guillermo", varsity: false}
+    - {name: "Charlotte Hardt", varsity: false}
+    - {name: "Anna Henriksen", varsity: true}
+    - {name: "Hannah Hill", varsity: false}
+    - {name: "Serenity Holland", varsity: true}
+    - {name: "Brianna Jackson", varsity: false}
+    - {name: "Kara Jones", varsity: true}
+    - {name: "Peyton Lambert", varsity: true}
+    - {name: "Skylar Law", varsity: false}
+    - {name: "Anna Lindy", varsity: true}
+    - {name: "Sydney Maples", varsity: false}
+    - {name: "Taylor Miller", varsity: true}
+    - {name: "Clara Morris", varsity: true}
+    - {name: "Makinley Newby", varsity: true}
+    - {name: "Lily Kate Robley", varsity: true}
+    - {name: "Lanie Salvail", varsity: true}
+    - {name: "Allie Spink", varsity: true}
+    - {name: "Mae Watkins", varsity: true}
+    - {name: "Bianca Wical", varsity: true}
+    - {name: "Keira Young", varsity: true}
+    - {name: "Olivia Rose Baguinat", varsity: false}
+
 2023:
   boys:
     - {name: "Christian Alderson", varsity: true}
@@ -164,60 +214,3 @@
     - {name: "Alexia Wical", varsity: true}
     - {name: "Keira Young", varsity: true}
     - {name: "Sophia Zajac", varsity: true}
-
-2020:
-  boys:
-    - {name: "Evan Barnett", varsity: true}
-    - {name: "Parker Barnett", varsity: true}
-    - {name: "Garrett Dardin", varsity: true}
-    - {name: "David Ekstrom", varsity: true}
-    - {name: "Taylor Flinn", varsity: true}
-    - {name: "Garrett George", varsity: true}
-    - {name: "Gabe Hack", varsity: true}
-    - {name: "Owen Harlow", varsity: true}
-    - {name: "Fletcher Hesse", varsity: true}
-    - {name: "Aaron Hill", varsity: true}
-    - {name: "Jackson Lawson", varsity: true}
-    - {name: "Dellyn Martin", varsity: true}
-    - {name: "James Nester"}
-    - {name: "Jonathan Noland"}
-    - {name: "Matthew Osterbauer", varsity: true}
-    - {name: "Matthew Rooker", varsity: true}
-    - {name: "Luke Salvail", varsity: true}
-    - {name: "Alan Shipp", varsity: true}
-    - {name: "Henry Sithole"}
-    - {name: "Jake Stinson", varsity: true}
-    - {name: "Landon Theisen", varsity: true}
-    - {name: "Owen Topcik"}
-    - {name: "Taylor Tribble", varsity: true}
-    - {name: "Peter Varmette", varsity: true}
-    - {name: "Thomas Watkins", varsity: true}
-    - {name: "Walker Wilson", varsity: true}
-    - {name: "Kiran Windham", varsity: true}
-    - {name: "Gabriel Wood", varsity: true}
-  girls:
-    - {name: "Hannah Blasingame", varsity: true}
-    - {name: "Catherine Chua", varsity: true}
-    - {name: "Caroline Cost", varsity: true}
-    - {name: "Bailey Flinn", varsity: true}
-    - {name: "Madison Flinn", varsity: true}
-    - {name: "Lily Franklin", varsity: true}
-    - {name: "Ava Henriksen", varsity: true}
-    - {name: "Emma Henriksen"}
-    - {name: "Krysanne Hicks", varsity: true}
-    - {name: "Ashlyn Johnson", varsity: true}
-    - {name: "Sydney Kalange", varsity: true}
-    - {name: "Tess Lindow", varsity: true}
-    - {name: "Erin McCutcheon"}
-    - {name: "Makinley Newby", varsity: true}
-    - {name: "Kate Reeves", varsity: true}
-    - {name: "Sofia Roberts", varsity: true}
-    - {name: "Emily Shattuck", varsity: true}
-    - {name: "Addison Smith", varsity: true}
-    - {name: "Torri Walker", varsity: true}
-    - {name: "Deanna Waters", varsity: true}
-    - {name: "Alexia Wical", varsity: true}
-    - {name: "Adison Yates", varsity: true}
-    - {name: "Keira Young", varsity: true}
-    - {name: "Sophia Zajac", varsity: true}
-    - {name: "Camille Zibas", varsity: true}
