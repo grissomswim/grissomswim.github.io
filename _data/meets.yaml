@@ -29,7 +29,7 @@
       events:
         200 IM: 2nd
         100 Freestyle: 6nd
-          
+
     - name: Kara Jones
       events:
         200 Freestyle: 1st
@@ -82,12 +82,12 @@
       events:
         50 Freestyle: 4th
         100 Backstroke: 2nd
-    
+
     - name: Anna Henriksen
       events:
         100 Backstroke: 6th
         100 Freestyle: 8th
-    
+
     - name: Keira Young
       events:
         100 Backstroke: 14th
@@ -289,70 +289,3 @@
     - name: Keira Young
       events:
         1 meter diving: 10th
-
-# 2021
-- title: "2021 State Championship"
-  notes: "6A-7A Division"
-  team_results:
-    - title: Girls Overall
-      result: 5th place
-    - title: Boys Overall
-      result: 10th place
-
-  relays:
-    - event: "Girls 200 Yard Medley Relay"
-      placement: "4th"
-      team: ["Alexia Wical", "Sofia Roberts", "Kara Jones", "Kate Reeves"]
-
-    - event: "Girls 400 Yard Freestyle Relay"
-      placement: "4th"
-      team: ["Kate Reeves", "Alexia Wical", "Kara Jones", "Sofia Roberts"]
-
-    - event: "Boys 200 Yard Medley Relay"
-      placement: "12th"
-      team: ["Parker Barnett", "Evan Barnett", "Jake Stinson", "Matthew Rooker"]
-
-    - event: "Boys 200 Yard Freestyle Relay"
-      placement: "9th"
-      team: ["Walker Wilson", "Thomas Watkins", "Matthew Rooker", "Jake Stinson"]
-
-  individuals:
-  - name: Sofia Roberts
-    events:
-      "200 IM": "2nd"
-      "100 Breaststroke": "1st"
-
-  - name: Kara Jones
-    events:
-      "200 IM": "5th"
-      "100 Butterfly": "13th"
-
-  - name: Alexia Wical
-    events:
-      "200 IM": "10th"
-      "100 Backstroke": "16th"
-  
-  - name: Kate Reeves
-    events:
-      "100 Freestyle": "10th"
-      "100 Backstroke": "3rd"
-  
-  - name: Thomas Watkins
-    events:
-      "500 Freestyle": "13th"
-  
-  - name: Keira Young
-    events:
-      "1 meter diving": "8th"
-
-  - name: Peyton Lambert
-    events:
-      "1 meter diving": "12th"
-
-  - name: Garret George
-    events:
-      "1 meter diving": "1st"
-
-  - name: Casey Sapp
-    events:
-      "1 meter diving": "11th"
