@@ -72,6 +72,30 @@
         100 Backstroke: 2nd
         100 Breaststroke: 1st
 
+    - name: Andrew Howard
+      events:
+        1 meter Diving: 11th
+
+    - name: Casey Sapp
+      events:
+        1 meter Diving: 1st
+
+    - name: Dylan Maples
+      events:
+        1 meter Diving: 14th
+
+    - name: Elizabeth Evans
+      events:
+        1 meter Diving: 5th
+
+    - name: Keira Young
+      events:
+        1 meter Diving: 6th
+
+    - name: Anna Lindy
+      events:
+        1 meter Diving: 9th
+
 # 2024
 - title: "2024 State Championship"
   notes: "6A-7A Division"
