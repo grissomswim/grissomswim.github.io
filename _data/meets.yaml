@@ -16,6 +16,18 @@
       placement: 2nd
       team: [Parker Barnett, Christian Alderson, Mark Crook, Walt Cooper]
 
+    - event: Women 200 Yard Free Relay
+      placement: 2nd
+      team: [Anna Henriksen, Brooke Doty, Lily Kate Robley, Allie Spink]
+
+    - event: Men 200 Yard Free Relay
+      placement: 4th
+      team: [Walt Cooper, Christian Alderson, Mark Crook, Parker Barnett]
+
+    - event: Women 400 Yard Free Relay
+      placement: 6th
+      team: [Anna Henriksen, Allie Spink, Lily Kate Robley, Brooke Doty]
+
   individuals:
     - name: Brooke Doty
       events:
@@ -25,18 +37,40 @@
     - name: Allie Spink
       events:
         200 IM: 4th
+        100 Freestyle: 7th
 
     - name: Bianca Wical
       events:
         200 IM: 7th
+        100 Breaststroke: 9th
 
     - name: Mark Crook
       events:
         200 IM: 6th
+        500 Freestyle: 6th
 
     - name: Walt Cooper
       events:
         50 Freestyle: 5th
+        100 Breaststroke: 6th
+
+    - name: Anna Henriksen
+      events:
+        100 Freestyle: 8th
+        100 Backstroke: 7th
+
+    - name: Hazel Webber
+      events:
+        500 Freestyle: 8th
+
+    - name: Lily Kate Robley
+      events:
+        100 Backstroke: 16th
+
+    - name: Parker Barnett
+      events:
+        100 Backstroke: 2nd
+        100 Breaststroke: 1st
 
 # 2024
 - title: "2024 State Championship"
